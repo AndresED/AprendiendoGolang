@@ -5,9 +5,10 @@ package main
 import "fmt"
 
 func main() {
-	nombre, apellido := "Andres", "Esquivel"
-	nombre, edad := "Estuardo", 26
+	//var nombre, apellido string;
 	//nombre = "Andres"
 	//apellido = "Esquivel"
+	nombre, apellido := "Andres", "Esquivel"
+	nombre, edad := "Estuardo", 26
 	fmt.Println("Mi nombre es ", nombre, ", mi apellido es", apellido, "y mi edad es", edad)
 }
